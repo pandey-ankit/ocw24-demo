@@ -1,0 +1,21 @@
+{
+    "workshoptitle": "Oracle Verrazzano Fundamentals",
+    "help": "livelabs-help-weblogic_us@oracle.com",
+    "tutorials": [
+        {
+            "title": "Demo 1: Scale a WebLogic Cluster through WKTUI and explore Verrazzano Consoles",
+            "type": "freetier",
+            "filename": "../../demo-weblogic/demo-weblogic.md"
+        },
+        {
+            "title": "Demo 2: Monitoring and Management of Helidon Application using Verrazzano",
+            "type": "freetier",
+            "filename": "../../demo-helidon/demo-helidon.md"
+        },
+        {
+        "title": "Need Help?",
+        "description": "Solutions to Common Problems and Directions for Receiving Live Help",
+        "filename":"https://oracle-livelabs.github.io/common/labs/need-help/need-help-freetier.md"
+        }
+   ]
+}
