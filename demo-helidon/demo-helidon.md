@@ -25,7 +25,14 @@ Estimated time: 05 minutes
 * Verrazzano installed on a Oracle Kubernetes Cluster.
 * Helidon *quickstart-mp* application is deployed to Oracle Kubernetes Cluster using Verrazzano.
 
-## Task 1: Explore the Rancher Console
+
+## Task 1: Open the Remote Desktop for this demo
+
+1. Click [Helidon demo](http://129.213.29.119/livelabs/vnc.html?password=LiveLabs.Rocks_99&resize=scale&quality=9&autoconnect=true&reconnect=true) to open the Remote Desktop for this Demo.
+
+2. Use this remote desktop for following the further task of this lab.
+
+## Task 2: Explore the Rancher Console
 
 1. Open Chrome browser, Click the first Bookmark **Helidon App**. 
     ![access helidon](images/access-helidon.png)
@@ -56,7 +63,7 @@ Estimated time: 05 minutes
 
 
 
-## Task 2: Explore the Prometheus Console
+## Task 3: Explore the Prometheus Console
 
 1. Open a new tab in Chrome browser and Click the third Bookmark **Prometheus Console**.
     ![prometheus url](images/prometheus-url.png)
@@ -69,7 +76,7 @@ Estimated time: 05 minutes
 4. Access the Helidon application once again, by click the first bookmark and show the metric's value increased.
     ![request count](images/request-count.png)
 
-## Task 3: Explore the Grafana Console
+## Task 4: Explore the Grafana Console
 
 1. Open a new tab in Chrome browser and Click the fourth Bookmark **Grafana Console**.
     ![grafana url](images/grafana-url.png)
@@ -85,7 +92,7 @@ Estimated time: 05 minutes
     ![grafana helidon](images/grafana-helidon.png)
 
 
-## Task 4: Explore the OpenSearch Dashboard
+## Task 5: Explore the OpenSearch Dashboard
 
 1. Open a new tab in Chrome browser and Click the fifth Bookmark **Opensearch Dashboard**.
     ![opensearch url](images/opensearch-url.png)

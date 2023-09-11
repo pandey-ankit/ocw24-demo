@@ -19,7 +19,15 @@ In this lab, you will:
 * Verrazzano installed on a Oracle Kubernetes Cluster.
 * WebLogic **opdemo** application is deployed to Oracle Kubernetes Cluster using WebLogic Kubernetes Toolkit UI.
 
-## Task 1: Access the WebLogic Application and show load balancing
+
+## Task 1: Open the Remote Desktop for this demo
+
+1. Click [WKTUI Demo](http://129.213.16.175/livelabs/vnc.html?password=LiveLabs.Rocks_99&resize=scale&quality=9&autoconnect=true&reconnect=true) to open the Remote Desktop for this Demo.
+
+2. Use this remote desktop for following the further task of this lab.
+
+
+## Task 2: Access the WebLogic Application and show load balancing
 
 1. Open Chrome browser, Click the first Bookmark **WebLogic App**.
     ![weblogic application](images/weblogic-application.png)
@@ -28,7 +36,7 @@ In this lab, you will:
     ![application managed 1](images/application-man-1.png)
     ![application managed 2](images/application-man-2.png)
 
-## Task 2: Showcase the WebLogic Console and explore domain resources
+## Task 3: Showcase the WebLogic Console and explore domain resources
 
 1. Open a new tab in Chrome browser and Click the second Bookmark **WebLogic Console**.
     ![weblogic console url](images/weblogic-console-url.png)
@@ -41,7 +49,7 @@ In this lab, you will:
 5. Click **Services** -> **Data sources**, to view the JDBC datasource for the application.
 
 
-## Task 3: Explore the Rancher and Grafana Console
+## Task 4: Explore the Rancher and Grafana Console
 
 1. Open a new tab in Chrome browser and Click the third Bookmark **Rancher Console**. Click **Login with Keycloak**. Enter **verrazzano** as Username and **X7jve6ftLz3NKvY9** as Password and  then click **Sign in**.
     ![rancher url](images/rancher-url.png)
@@ -79,7 +87,7 @@ In this lab, you will:
 
 
 
-## Task 4: Scale a WebLogic cluster through WKTUI
+## Task 5: Scale a WebLogic cluster through WKTUI
 
 1. In Remote Desktop, Open WKTUI. 
 
@@ -98,7 +106,7 @@ In this lab, you will:
     ![view scaling](images/view-scaling.png)
 
 
-## Task 5: Showcase changes in application, WebLogic Remote Console console and Verrazzano Console
+## Task 6: Showcase changes in application, WebLogic Remote Console console and Verrazzano Console
 
 1. Access the application URL, and verify that application is running on managed server 3 as well. 
     ![app man 3](images/app-man-3.png)
