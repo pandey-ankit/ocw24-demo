@@ -8,7 +8,7 @@
             "filename": "../../demo-weblogic/demo-weblogic.md"
         },
         {
-            "title": "Demo 2: Monitoring and Management of Helidon Application using Verrazzano",
+            "title": "Demo 2: Monitor and Manage Helidon Application through Verrazzano",
             "type": "freetier",
             "filename": "../../demo-helidon/demo-helidon.md"
         },
