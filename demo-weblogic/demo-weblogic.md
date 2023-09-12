@@ -3,6 +3,7 @@
 ## Introduction
 
 We have deployed the WebLogic **opdemo** application. In this lab, we will access the application and explore grafana console, WebLogic Kubernetes Toolkit UI and WebLogic Remote Console.
+    ![image](images/image_verrazzano.png)
 
 Estimated time: 10 minutes
 
@@ -61,14 +62,14 @@ In this lab, you will:
 3. If you see the **Replicas** value is **2** then change the **Replicas** value from **2** to **3** and click **OK**. This will scale up a WebLogic cluster and if you see the **Replicas** value is **3** then change the **Replicas** value from **3** to **2** and click **OK**.  This will scale down a WebLogic cluster.
     ![replica value](images/replicas-value.png)
 
-4. Click **Deploy Component** to re-deploy the **opdemo** application.
-
-5. Open the terminal, copy and paste the following command to the terminal. 
+4. Open the terminal, copy and paste the following command to the terminal. 
     ```bash
     <copy>kubectl get pods -n test-domain-ns -w</copy>
     ```
     ![view scaling](images/view-scaling.png)
     >  Below screenshot shows scale up WebLogic cluster.
+
+5. Click **Deploy Component** to re-deploy the **opdemo** application.
 
 ## Task 5: Explore the Rancher and Grafana Console
 
