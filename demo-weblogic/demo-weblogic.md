@@ -49,7 +49,28 @@ In this lab, you will:
 5. Click **Services** -> **Data sources**, to view the JDBC datasource for the application.
 
 
-## Task 4: Explore the Rancher and Grafana Console
+## Task 4: Scale up/down a WebLogic cluster through WKTUI
+
+1. In Remote Desktop, Open WKTUI. 
+
+2. Click **Component** under **Verrazzano**, and then click **Edit** icon for cluster section as shown below.
+    ![cluster size](images/cluster-size.png)
+    > Through WKTUI, we create the component "yaml" file for the application. This component file describes the different components of the application whereas a component is a Kubernetes custom resource describing an application's general composition and environment requirement.</br>
+     we also create the application "yaml" file for the application. This application yaml file describes runtime features using traits. For example, the ingress trait specifies the ingress host and path, while the metrics trait provides the Prometheus scraper used to obtain the application-related metrics.
+
+3. If you see the **Replicas** value is **2** then change the **Replicas** value from **2** to **3** and click **OK**. This will scale up a WebLogic cluster and if you see the **Replicas** value is **3** then change the **Replicas** value from **3** to **2** and click **OK**.  This will scale down a WebLogic cluster.
+    ![replica value](images/replicas-value.png)
+
+4. Click **Deploy Component** to re-deploy the **opdemo** application.
+
+5. Open the terminal, copy and paste the following command to the terminal. 
+    ```bash
+    <copy>kubectl get pods -n test-domain-ns -w</copy>
+    ```
+    ![view scaling](images/view-scaling.png)
+    >  Below screenshot shows scale up WebLogic cluster.
+
+## Task 5: Explore the Rancher and Grafana Console
 
 1. Open a new tab in Chrome browser and Click the third Bookmark **Rancher Console**. Click **Login with Keycloak**. Enter **verrazzano** as Username and **X7jve6ftLz3NKvY9** as Password and  then click **Sign in**.
     ![rancher url](images/rancher-url.png)
@@ -85,25 +106,6 @@ In this lab, you will:
 
     Here you can observe the two managed servers under **test-domain**. You can view **Heap Usage**, **JVM Heap**, **CPU Load** and other data.
 
-
-
-## Task 5: Scale a WebLogic cluster through WKTUI
-
-1. In Remote Desktop, Open WKTUI. 
-
-2. Click **Component** under **Verrazzano**, and then click **Edit** icon for cluster section as shown below.
-    ![cluster size](images/cluster-size.png)
-
-3. Change the **Replicas** value from **2** to **3** and click **OK**. 
-    ![replica value](images/replicas-value.png)
-
-4. Click **Deploy Component** to re-deploy the **opdemo** application.
-
-5. Open the terminal, copy and paste the following command to the terminal. 
-    ```bash
-    <copy>kubectl get pods -n test-domain-ns -w</copy>
-    ```
-    ![view scaling](images/view-scaling.png)
 
 
 ## Task 6: Showcase changes in application, WebLogic Remote Console console and Verrazzano Console
