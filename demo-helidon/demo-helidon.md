@@ -21,16 +21,18 @@ Estimated time: 05 minutes
 
 ### Prerequisites
 
-* You have access to the remote desktop [Helidon demo](http://129.213.29.119/livelabs/vnc.html?password=LiveLabs.Rocks_99&resize=scale&quality=9&autoconnect=true&reconnect=true).
+* You have access to the remote desktop [Helidon demo](http://129.213.29.119/livelabs/vnc.html?resize=scale&quality=9&autoconnect=true&reconnect=true).
 * Verrazzano installed on a Oracle Kubernetes Cluster.
 * Helidon *quickstart-mp* application is deployed to Oracle Kubernetes Cluster using Verrazzano.
 
 
 ## Task 1: Open the Remote Desktop for this demo
 
-1. Click [Helidon demo](http://129.213.29.119/livelabs/vnc.html?password=LiveLabs.Rocks_99&resize=scale&quality=9&autoconnect=true&reconnect=true) to open the Remote Desktop for this Demo.
+1. Click [Helidon demo](http://129.213.29.119/livelabs/vnc.html?resize=scale&quality=9&autoconnect=true&reconnect=true) to open the Remote Desktop for this Demo.
 
-2. Use this remote desktop for following the further task of this lab.
+2. Enter the password, you have received through email.
+
+3. Use this remote desktop for following the further task of this lab.
 
 ## Task 2: Explore the Rancher Console
 
