@@ -75,7 +75,7 @@ In this lab, you will:
 
 ## Task 5: Explore the Rancher and Grafana Console
 
-1. Open a new tab in Chrome browser and Click the third Bookmark **Rancher Console**. Click **Login with Keycloak**. Enter **verrazzano** as Username and **X7jve6ftLz3NKvY9** as Password and  then click **Sign in**.
+1. Open a new tab in Chrome browser and Click the third Bookmark **Rancher Console**. Click **Login with Keycloak**. Username and Password are already fill, so click **Sign in**.
     ![rancher url](images/rancher-url.png)
     ![rancher signin](images/rancher-signin.png)
 

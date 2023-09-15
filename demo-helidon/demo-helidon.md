@@ -41,7 +41,7 @@ Estimated time: 05 minutes
 
     > It confirm, Helidon application is successfully running on Kubernetes Cluster.
 
-2. Open a new tab in Chrome browser and Click the second Bookmark **Rancher Console**. Click **Login with Keycloak**. Enter **verrazzano** as Username and **X7jve6ftLz3NKvY9** as Password and  then click **Sign in**.
+2. Open a new tab in Chrome browser and Click the second Bookmark **Rancher Console**. Click **Login with Keycloak**. Username and Password are already fill, so click **Sign in**.
     ![rancher url](images/rancher-url.png)
     ![rancher signin](images/rancher-signin.png)
 
@@ -100,7 +100,7 @@ Estimated time: 05 minutes
     ![opensearch url](images/opensearch-url.png)
 
 
-2. Select the *`verrazzano-application*`* namespace as shown and then type the custom log entry value you created in the Helidon application: `help ` into the filter textbox. Press **Enter** or click **Refresh**. You should get at least one result. 
+2. Select the *`verrazzano-application*`* namespace as shown and then type the custom log entry value you created in the Helidon application: `OCW23 ` into the filter textbox. Press **Enter** or click **Refresh**. You should get at least one result. 
     ![opensearch log](images/opensearch-log.png)
 
     > If you haven't hit the application endpoint, or that happened a long time ago, simply invoke the helidon application again.
