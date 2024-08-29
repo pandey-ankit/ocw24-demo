@@ -11,7 +11,7 @@ Estimated time: 10 minutes
 
 In this lab, you will:
 
-* Access the WebLogic application deployed to OKE.
+* ANKIT Access the WebLogic application deployed to OKE.
 * Access the WebLogic Administration Console.
 
 ### Prerequisites
